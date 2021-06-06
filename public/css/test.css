@@ -111,7 +111,7 @@ h4{
 
 .cont-producto{
   background-color: white;
-  box-shadow :5px 5px 10px #666;
+  /* box-shadow :5px 5px 10px #666; */
   text-align: center;
   padding: 3%;
   /* width: 72%; */
@@ -321,11 +321,7 @@ h4{
       font-weight: bold;
     }
 
-    p:hover{
-      visibility: visible;
-    }
-
-    .header{
+     .header{
       background-color: #EAC926;
       /* position:fixed; */
       width: 107%;
@@ -360,26 +356,38 @@ h4{
     }
     
     .cont-producto{
-      background-color: white;
-      box-shadow :7px 7px 12px #666;
+      background-color: rgb(255, 254, 254);
+      /* box-shadow :7px 7px 12px #666; */
       text-align: center;
+      color: rgb(250, 250, 250);
       padding: 3%;
       width: 25%;
       height: auto;
       border-radius: 6px;
       margin: 15px;
-      color: #000;
-      transition-property: background-color, color;
-      transition-duration: 1s;
+      transition: all 250ms;
     }  
       
     .cont-producto:hover{
-      background-color: #eaeaea;
-      color: #000;
-      transition:
-      background-color, 1s,
-      color, 1s;
-      filter: opacity(.6); 
-
+      /* background-color: rgb(255, 254, 254);
+      box-shadow :7px 7px 12px #666; 
+      text-align: center;
+      padding: 3%;
+      width: 25%;
+      height: auto;
+      border-radius: 6px;
+      margin: 15px;  */
+      color: black;
+      box-shadow :7px 7px 12px rgb(13, 211, 76)
     }
-}
+    #descripcion-producto{
+      font-size: 16px; 
+      color: rgb(255, 251, 251);
+      transition: all 74ms;
+    }
+    #descripcion-producto:hover{
+      color: black;
+      font-size: 16px; 
+      font-weight: bold;
+    }
+  }
