@@ -1,0 +1,463 @@
+* {
+    margin: 0 px ;
+    padding: 0 px ;
+
+}
+
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: roboto;
+    background-color: #ebebeb;
+}
+p{
+    font-size: 12px;
+}
+#p{
+    font-family: roboto;
+}
+h4{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+/*header*/
+
+.header{
+    background-color: #EAC926;
+    /* position:fixed; */
+    width: 107%;
+    /* border: 1px dotted red; */
+    text-align: center;
+    margin-left: -8px;
+    margin-top: -8px;
+    height: 129px;
+    z-inde;
+}
+#boton1 {
+    color: rgb(12, 12, 12);
+    background-color: #FFF;
+    margin-right: -3px;
+    margin-left: -32px;
+    border: none;
+  }
+
+.boton-hamburguesa{
+    background-color: #03264C;
+    margin-top: 9px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -9px;
+    width: 23px;
+    margin-top: -7px;
+    margin-bottom: 5px;
+  }
+.nav-bar{
+    display:none;
+    visibility: hidden;
+    }
+
+.banner{
+    width: 108%;
+    height:auto;
+    margin-left: -8px;
+}
+.header-superior{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+.compra-en-cuotas1{
+    margin-top: -4px;
+    font-size: 12px;
+    visibility: hidden;
+    }
+.compra-en-cuotas{
+    margin-top: 7px;
+    font-size: 12px;
+    }
+
+
+.barra-busqueda{
+    flex-grow: 19;
+    margin:auto;
+    width:auto;
+}
+#barra-busquedados {
+    border: none;
+    width: 208px;
+    height: 33px;
+}
+
+
+.img-logo{
+    width: 20%;
+    height:auto;
+    margin-left: 1%;
+}
+/*main*/
+.cont-producto{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow :5px 5px 10px #666;
+    /* padding: 3%; */
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px;
+    width: 90%;
+    margin-top: 10px;
+}
+.producto-icono{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    /* width: 30px; */
+    margin: auto;
+    height: 16px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    left: 85%;
+    color:#39b54a;
+}
+#descuento{
+    color:#39b54a;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+#precio{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right:10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+#nombreProducto{
+    margin-left: 15px;
+    align-self: flex-start;
+}
+.contenedor-precioydescuento{
+    margin: auto;
+    display:flex;
+    align-items: flex-end;
+    border-top:1px solid #ebebeb;
+    width:100%;
+}
+
+
+.flex-contenedores{
+    display:flex;
+    flex-direction: column;
+    margin:5%;
+    align-content: flex-end;
+}
+.img{
+    width: 200px;
+    height: auto;
+    margin-top: 3%;
+    align-self: center;
+}
+
+
+
+.titulares{
+     margin-left: 5%;
+}
+.contenedorGeneral{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+/*---FOOOTER---*/
+.footericonos{
+    color:  #1259c3;
+   font-size: 2em;
+   margin-top: 10px;
+    
+}
+
+.contenedor-principalfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: -8px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: -8px;
+}
+.contenedor-secundariofooter{
+    text-align: center;
+   margin:5%
+}
+#copyright{
+    text-align: center;
+    background-color: white;
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+
+/*formulario*/
+
+
+.formulario {
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 0%;
+}
+.formulario-campos{
+    border:none;
+    width: 90%;
+    height: 24px;
+    border-radius:3px;
+    margin: 2%;
+    margin-left: 2%;
+}
+
+#formulario-checkbox{
+    height: auto;
+    font-size: 14px;
+    margin-bottom: 19px;
+}
+#contenedor-radius-perfil{
+    display:flex;
+    font-size: 14px;
+    margin-left: 2%;
+}
+#formulario-texto{
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 2%;
+}
+.formulario-boton{
+    background-color: #1259c3;
+    border-radius: 4px;
+    color:white;
+    font-weight: 550;
+    width: 47%;
+    height: 25px;
+    font-size: 12px;
+    border: none;
+}
+
+.formulario-boton-login{
+    background-color: #1259c3;
+    border-radius: 4px;
+    color:white;
+    font-weight: 550;
+    width: 91%;
+    height: 25px;
+    font-size: 12px;
+    border: none;
+    margin-left: 2%;
+}
+
+
+@media only screen and (min-width: 768px)  {
+    .boton-hamburguesa{
+        background-color:  #1259c3;
+        }
+    .flex-contenedores{
+        display:flex;
+        flex-direction: row;
+        margin:2%;
+      
+        }
+    .compra-en-cuotas{
+        margin-top: -4px;
+        font-size: 16px;
+        }
+    .titulares{
+        margin-left: 5%;
+        align-self: center;
+        font-size: 20px;
+        color: rgb(109, 109, 109);
+        font-family: 'Roboto';
+        font-weight: bold;
+        }
+    .formulario {
+        margin-left: 26%;
+        margin-bottom: 10%;
+        width: 50%;
+        margin-left: 25%;
+        }
+    .contenedor-principalfooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+    .barra-busqueda{
+        flex-grow: 19;
+        margin:auto;
+        width:auto;
+        }
+    #barra-busquedados {
+        border: none;
+        width: 508px;
+        height: 33px;
+        }
+    .header{
+        background-color: #EAC926;
+        width: 105%;
+        text-align: center;
+        margin-left: -8;
+        margin-top: -8px;
+        }
+    .cont-producto{
+        background-color: white;
+        box-shadow :5px 5px 10px #666;
+        text-align: center;
+        /* padding: 3%; */
+        /* width: 72%; */
+        width: 33%;
+        height: auto;
+        border-radius: 6px;
+        margin: 15px;
+        }
+    .flex-contenedores{
+        display:flex;
+        flex-direction: row;
+        margin:2%;
+        justify-content: flex-start;
+        }   
+    .producto-icono{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        /* width: 30px; */
+        margin: auto;
+        height: 16px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: relative;
+        top: 15px;
+        left: 40%;
+        color:#39b54a;
+        }
+}
+@media only screen and (min-width: 1279px) {
+    .boton-hamburguesa{
+        background-color:  #1259c3;
+        visibility: hidden;
+        }
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        visibility: visible;
+        margin-top: -53px;
+        background-color: #EAC926;
+        }
+    .nav-baruno {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        justify-content:space-between;
+        text-indent: 2em;
+        text-align: left;
+        visibility: visible;
+        margin-top: 3px;
+        }
+    .nav-bardos{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        justify-content:space-between;
+        text-indent: 2em;
+        text-align: 1px;
+        margin-top: 3px;
+        }
+
+    p{
+        font-size: 16px;
+        font-weight: bold;
+        }        
+    .header{
+        background-color: #EAC926;
+        position:fixed;
+        width: 107%;
+        text-align: center;
+        margin-left: -8px;
+        margin-top: -8px;
+        height: 136px;
+        z-index: 1;
+        }
+    .todojunto {
+        display: flex;
+        flex-direction: row;
+        }
+
+    .compra-en-cuotas{
+      visibility: hidden;
+    }
+    .compra-en-cuotas1{
+        visibility: visible;
+        font-size: 16px;
+        text-align: left;
+        justify-content:space-between;
+        margin-top: 14px;
+        margin-left: 88px;
+        }
+    .barra-busqueda{
+        flex-grow: 19;
+        margin:auto;
+        width:auto;
+        margin-left: 33px;
+        }
+
+    .flex-contenedores{
+        display:flex;
+        flex-direction: row;
+        margin:2%;
+        justify-content: flex-start;
+    }
+  
+    .contenedor-principalfooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contenedor-secundariofooter{
+        text-align: center;
+       margin:2%
+    }
+    .cont-producto{
+        background-color: white;
+        box-shadow :5px 5px 10px #666;
+        text-align: center;
+        /* padding: 3%; */
+        width: 72%;
+        width: 25%;
+        height: auto;
+        border-radius: 6px;
+        margin: 15px;
+    }
+  
+    .banner{
+        width: 108%;
+        height:auto;
+        margin-left: -8px;
+        margin-top: 142px;
+        }   
+    .formulario {
+        margin-left: 26%;
+        margin-bottom: 8%;
+        width: 31%;
+        margin-left: 34%;
+        margin-top: 9%;
+        }
+}
