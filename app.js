@@ -21,9 +21,12 @@ const path = require('path');
 const app = express();
 const publicFolderPath = path.resolve(__dirname, './public');
 app.use ( express.static (publicFolderPath));
-app.listen (3060, () => {
-    console.log ("sercorriendo");
+app.listen(process.env.PORT || 3000, function() {
+    console.log("Servidor corriendo");
 });
+// app.listen (3060, () => {
+//     console.log ("sercorriendo");
+// });
 app.get ("/", (req,res) => {
     res.sendFile (path.resolve (__dirname, "./views/index.html"));
 })
